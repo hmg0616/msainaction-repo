@@ -1,0 +1,11 @@
+spring:
+  application:
+    # 애플리케이션 이름이며 컨피그 서버의 디렉터리 이름과 일치해야함
+    name: licensingservice
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      # 라이선싱 서비스가 접속할 스프링 클라우드 컨피그서버의 엔드포인트
+      uri: http://localhost:8888

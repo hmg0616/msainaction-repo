@@ -1,0 +1,7 @@
+# actuator endpoints (health, env, refresh and others) for testing
+# 테스트를 위한 노출이므로 운영에는 노출되면 안될듯
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
