@@ -1,4 +1,4 @@
-package com.hmg.licensingservice;
+package com.hmg.organizationservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,11 +7,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @RefreshScope
-@EnableFeignClients // FeignClient를 사용하기 위해 애너테이션 추가
-public class LicensingServiceApplication {
+@EnableFeignClients
+public class OrganizationServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(LicensingServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(OrganizationServiceApplication.class, args);
+    }
 
 }

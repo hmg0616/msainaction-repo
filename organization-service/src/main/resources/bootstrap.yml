@@ -1,7 +1,7 @@
 spring:
   application:
     # 애플리케이션 이름이며 컨피그 서버의 디렉터리 이름과 일치해야함
-    name: licensingservice
+    name: organizationservice
   profiles:
     active:
       default
